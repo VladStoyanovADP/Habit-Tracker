@@ -1,0 +1,29 @@
+[
+  {
+    "model": "HabitTracker.Person",
+    "seq": 1,
+    "fields": {
+      "name": "Eva Wise",
+      "username": "Ruiz",
+      "habit": "diet"
+    }
+  },
+  {
+    "model": "HabitTracker.Person",
+    "seq": 2,
+    "fields": {
+      "name": "Isabel Bryant",
+      "username": "Thornton",
+      "habit": "diet"
+    }
+  },
+  {
+    "model": "HabitTracker.Person",
+    "seq": 3,
+    "fields": {
+      "name": "Maggie Bridges",
+      "username": "Massey",
+      "habit": "diet"
+    }
+  }
+]
