@@ -1,4 +1,4 @@
-from Rewards.models import Rewards
+from django.contrib.auth.models import Rewards
 from rest_framework import serializers
 
 class RewardsSerializer(serializers.HyperlinkedModelSerializer):
