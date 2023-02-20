@@ -13,29 +13,17 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
 from django.urls import path, include
-from HabitTracker.models import Person
-from HabitTracker.views import get_person_data
-from rest_framework import routers, serializers, viewsets
+from rest_framework import routers
+from Rewards import views
 
 
-class PersonSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Person
-        fields = ['name', 'username', 'habit']
-
-
-class UserTableViewSet(viewsets.ModelViewSet):
-    queryset = Person.objects.all()
-    serializer_class = PersonSerializer
 
 router = routers.DefaultRouter()
-router.register(r'users', UserTableViewSet)
+router.register(r'rewards', views.RewardsViewset)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('admin/', admin.site.urls),
+    #path('rewards/', include()),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    path('users/', get_person_data, name='get_person_data'),
 ]
