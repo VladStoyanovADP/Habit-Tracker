@@ -1,6 +1,6 @@
 import json
 from django.core.management.base import BaseCommand
-from HabitTracker.models import Person
+from Habits.models import Person
 
 class Command(BaseCommand):
     help = 'Load data from a JSON file'

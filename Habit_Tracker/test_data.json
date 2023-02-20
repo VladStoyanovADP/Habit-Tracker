@@ -1,6 +1,6 @@
 [
   {
-    "model": "HabitTracker.Person",
+    "model": "Habits.Person",
     "seq": 1,
     "fields": {
       "name": "Eva Wise",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "HabitTracker.Person",
+    "model": "Habits.Person",
     "seq": 2,
     "fields": {
       "name": "Isabel Bryant",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "HabitTracker.Person",
+    "model": "Habits.Person",
     "seq": 3,
     "fields": {
       "name": "Maggie Bridges",
