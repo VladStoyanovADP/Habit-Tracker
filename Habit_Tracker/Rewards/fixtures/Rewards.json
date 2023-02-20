@@ -5,7 +5,7 @@
         "fields": 
         {
             "rewards_name" : "extra snack",
-            "rewards_descripton" : "have an extra snack after dinner",
+            "rewards_description" : "have an extra snack after dinner",
             "rewards_cost": 50
         }
     },
@@ -15,7 +15,7 @@
         "fields": 
         {
             "rewards_name" : "Video games",
-            "rewards_descripton" : "Play an extra hour of video games",
+            "rewards_description" : "Play an extra hour of video games",
             "rewards_cost": 100
         }
     },
@@ -25,7 +25,7 @@
         "fields": 
         {
             "rewards_name" : "Day off habits",
-            "rewards_descripton" : "take a day off from your daily routine",
+            "rewards_description" : "take a day off from your daily routine",
             "rewards_cost": 200
         }
     },
@@ -35,7 +35,7 @@
         "fields": 
         {
             "rewards_name" : "Go out clubbing",
-            "rewards_descripton" : "Go out to the club",
+            "rewards_description" : "Go out to the club",
             "rewards_cost": 300
         }
     },
@@ -45,7 +45,7 @@
         "fields": 
         {
             "rewards_name" : "Buy Clothes",
-            "rewards_descripton" : "Go to store and buy new clothes",
+            "rewards_description" : "Go to store and buy new clothes",
             "rewards_cost": 150
         }
     },
@@ -55,7 +55,7 @@
         "fields": 
         {
             "rewards_name" : "Get takeout",
-            "rewards_descripton" : "order takeaway food",
+            "rewards_description" : "order takeaway food",
             "rewards_cost": 150
         }
     }
