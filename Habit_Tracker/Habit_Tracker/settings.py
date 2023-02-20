@@ -25,7 +25,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'HabitTracker.apps.HabitTrackerConfig',
     'Rewards.apps.RewardsConfig',
     'Users.apps.UsersConfig',
     'rest_framework'
