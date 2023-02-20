@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from Habits.models import Person
-from Habits.views import get_user_habits
+from Users.models import Person
+from Users.views import get_user_habits
 from Habit_Tracker.serializers import PersonSerializer
 from rest_framework import routers, viewsets
 
