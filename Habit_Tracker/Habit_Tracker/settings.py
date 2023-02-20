@@ -27,7 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'HabitTracker.apps.HabitTrackerConfig',
     'Rewards.apps.RewardsConfig',
-    'rest_framework',
+    'Users.apps.UsersConfig',
+    'rest_framework'
+
 ]
 
 MIDDLEWARE = [
