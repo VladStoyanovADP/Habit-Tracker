@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'HabitTracker.apps.HabitTrackerConfig',
+    'Users.apps.UsersConfig',
     'rest_framework'
 ]
 
