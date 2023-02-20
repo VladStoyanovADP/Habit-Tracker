@@ -16,4 +16,10 @@ python3 manage.py loaddata test_data.json
 
 python3 manage.py runserver
 
+*** pip needs to be installed
+
+*** psycopg2
+
+*** pip install -r requirements.txt
+
 
