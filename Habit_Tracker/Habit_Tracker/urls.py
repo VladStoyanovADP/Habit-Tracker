@@ -6,9 +6,9 @@ from People import views
 
 
 router = routers.DefaultRouter()
-router.register(r'people', views.PersonViewSet)
-router.register(r'rewards', views.RewardsViewSet)
-router.register(r'achievements', AchievementsViewSet)
+router.register(r'people', views.PersonViewSet, basename='users')
+router.register(r'rewards', views.RewardsViewSet, basename='rewards')
+router.register(r'achievements', AchievementsViewSet, basename='achievements')
 
 urlpatterns = [
     path('', include(router.urls)),
