@@ -26,10 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'People.apps.PeopleConfig',
-    'Rewards.apps.RewardsConfig',
     'Users.apps.UsersConfig',
-    'rest_framework'
-
+    'rest_framework',
+    'drf_multiple_model',
 ]
 
 MIDDLEWARE = [
