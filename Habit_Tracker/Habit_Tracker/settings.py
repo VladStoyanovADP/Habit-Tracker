@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'People.apps.PeopleConfig',
     'Users.apps.UsersConfig',
     'rest_framework',
-    'drf_multiple_model',
 ]
 
 MIDDLEWARE = [
