@@ -5,7 +5,7 @@ from People import userviews
 
 
 router = routers.DefaultRouter()
-router.register(r'people', userviews.PersonViewSet)
+router.register(r'users', userviews.PersonViewSet)
 router.register(r'rewards', userviews.RewardsViewSet)
 router.register(r'habits', userviews.HabitsViewSet)
 router.register(r'achievements', achviews.AchievementsViewSet)
