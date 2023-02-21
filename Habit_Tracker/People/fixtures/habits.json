@@ -1,0 +1,45 @@
+[
+    {
+        "model" : "People.",
+        
+        "habit_id": 1,
+        "fields": 
+        {
+            "person_id": 7,
+            "habit_name" : "exercise habit",
+            "habit_description" : "have an extra snack after dinner",
+            "habit_category": "exercise",
+            "habit_type" : "weekly",
+            "habit_streak" : 2
+        }
+    },
+    {
+        "model" : "People.Habits",
+        
+        "habit_id": 2,
+        "fields": 
+        {
+            "person_id": 1,
+            "habit_name" : "drinking habit",
+            "habit_description" : "have an extra snack after dinner",
+            "habit_category": "exercise",
+            "habit_type" : "weekly",
+            "habit_streak" : 8
+        }
+    },
+    {
+        "model" : "People.Habits",
+        
+        "habit_id": 3,
+        "fields": 
+        {
+            "person_id": 9,
+            "habit_name" : "exercise habit",
+            "habit_description" : "have an extra snack after dinner",
+            "habit_category": "exercise",
+            "habit_type" : "weekly",
+            "habit_streak" : 9
+        }
+    }
+]
+    
