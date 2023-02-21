@@ -1,15 +1,15 @@
 from django.urls import path, include
 from rest_framework import routers
 from Users.views import get_user_habits
-from People import views
-from Rewards import views
-from Achievements import views
+from People import views as PersonViewSet
+from Rewards import views as RewardsViewSet
+from Achievements import views as AchievementsViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'people', views.PersonViewSet)
-router.register(r'rewards', views.RewardsViewset)
-router.register(r'achievements', views.AchievementsViewSet)
+router.register(r'people', PersonViewSet)
+router.register(r'rewards', RewardsViewSet)
+router.register(r'achievements', AchievementsViewSet)
 
 
 urlpatterns = [
