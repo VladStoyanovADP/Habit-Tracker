@@ -7,7 +7,7 @@ class PersonViewSet(viewsets.ModelViewSet):
     queryset = Person.objects.all().order_by('name')
     serializer_class = PersonSerializer
 
-class RewardsViewset(viewsets.ModelViewSet):
+class RewardsViewSet(viewsets.ModelViewSet):
     queryset = Rewards.objects.all()
     serializer_class = RewardsSerializer
     permission_classes = [permissions.IsAuthenticated]

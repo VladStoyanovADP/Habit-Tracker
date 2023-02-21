@@ -1,13 +1,14 @@
 from django.urls import path, include
 from rest_framework import routers
-from Users.views import get_user_habits
-from People import views as PersonViewSet
-from People import views as RewardsViewSet
 from Achievements import views as AchievementsViewSet
+from People import views
+from Users.views import get_user_habits
+
+
 
 router = routers.DefaultRouter()
-router.register(r'people', PersonViewSet)
-router.register(r'rewards', RewardsViewSet)
+router.register(r'people', views.PersonViewSet)
+router.register(r'rewards', views.RewardsViewSet)
 router.register(r'achievements', AchievementsViewSet)
 
 urlpatterns = [
@@ -16,4 +17,3 @@ urlpatterns = [
     path('users/<int:id>/habits', get_user_habits)
 
 ]
-
