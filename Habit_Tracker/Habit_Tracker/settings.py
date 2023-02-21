@@ -26,7 +26,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'People.apps.PeopleConfig',
-    'Users.apps.UsersConfig',
     'Achievements.apps.AchievementsConfig',
     'rest_framework',
 ]

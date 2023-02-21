@@ -12,11 +12,6 @@
         "created_at": "14/11/2019",
         "currency": 58.13,
         "phone": "+51 513 897 6195",
-        "habits": [
-            { "1": "cross-country" },
-            { "2": "knitting" },
-            { "3": "diet" }
-        ],
         "achievements": [
             { "1": "2-week streak" }
         ]
@@ -35,7 +30,6 @@
         "created_at": "06/02/2020",
         "currency": 6.85,
         "phone": "+420 929 558 9328",
-        "habits": [],
         "achievements": [
             { "1":"1-week streak" }
         ]
@@ -54,9 +48,6 @@
         "created_at": "01/07/2020",
         "currency": 47.01,
         "phone": "+264 686 627 8232",
-        "habits": [
-            { "1": "sleeping" }
-        ],
         "achievements": []
     }
     },
@@ -73,10 +64,6 @@
         "created_at": "06/05/2017",
         "currency": 82.64,
         "phone": "+234 837 413 0966",
-        "habits": [
-            { "1": "surfing" },
-            { "2": "cooking" }
-        ],
         "achievements": []
     }
     },
@@ -93,11 +80,6 @@
         "created_at": "15/07/2021",
         "currency": 65.84,
         "phone": "+86 874 548 4309",
-        "habits": [
-            { "1": "writing" },
-            { "2": "animation" },
-            { "3": "sleeping" }
-        ],
         "achievements": [
         ]
     }
@@ -115,7 +97,6 @@
         "created_at": "29/06/2022",
         "currency": 85.15,
         "phone": "+212 259 432 8053",
-        "habits": [],
         "achievements": [
             { "1": "1-month streak" },
             {}
@@ -135,10 +116,6 @@
         "created_at": "09/03/2017",
         "currency": 98.28,
         "phone": "+265 741 220 4217",
-        "habits": [
-            { "1": "teaching" },
-            { "2": "sparring" }
-        ],
         "achievements": [
             { "1": "10-day streak" }
         ]
@@ -157,7 +134,6 @@
         "created_at": "30/03/2019",
         "currency": 52.9,
         "phone": "+855 210 612 3793",
-        "habits": [],
         "achievements": [
         ]
     }
@@ -175,10 +151,6 @@
         "created_at": "27/10/2021",
         "currency": 32.99,
         "phone": "+63 169 522 6508",
-        "habits": [
-            { "1": "swimming" },
-            { "2": "video games" }
-        ],
         "achievements": []
     }
     },
@@ -195,10 +167,6 @@
         "created_at": "19/12/2017",
         "currency": 99.89,
         "phone": "+81 848 837 0327",
-        "habits": [
-            { "1": "writing" },
-            { "2": "gym" }
-        ],
         "achievements": [
             { "1":"2-week streak" }
         ]
@@ -217,11 +185,6 @@
         "created_at": "27/07/2019",
         "currency": 73.13,
         "phone": "+62 602 682 3295",
-        "habits": [
-            { "1": "cooking" },
-            { "2": "party-planning" },
-            { "3": "hiking" }
-        ],
         "achievements": []
     }
     },
@@ -238,11 +201,6 @@
         "created_at": "27/03/2021",
         "currency": 96.41,
         "phone": "+33 180 780 4230",
-        "habits": [
-            { "1": "cross-country" },
-            { "2": "gym" },
-            { "3": "painting" }
-        ],
         "achievements": [
             { "1": "1-week streak" }
         ]
@@ -261,9 +219,6 @@
         "created_at": "16/07/2018",
         "currency": 17.96,
         "phone": "+7 435 157 1343",
-        "habits": [
-            { "1": "surfing" }
-        ],
         "achievements": [
             { "1": "3-month streak" }
         ]
@@ -282,9 +237,6 @@
         "created_at": "15/09/2021",
         "currency": 46.13,
         "phone": "+86 710 146 1400",
-        "habits": [
-            { "1": "opera singing" }
-        ],
         "achievements": []
     }
     },
@@ -301,7 +253,6 @@
         "created_at": "07/01/2021",
         "currency": 60.78,
         "phone": "+30 823 302 4517",
-        "habits": [],
         "achievements": [
             { "1": "3-day streak" }
         ]
@@ -320,7 +271,6 @@
         "created_at": "05/06/2018",
         "currency": 64.7,
         "phone": "+86 349 829 7851",
-        "habits": [],
         "achievements": []
     }
     },
@@ -337,11 +287,6 @@
         "created_at": "19/02/2021",
         "currency": 42.22,
         "phone": "+86 550 594 0054",
-        "habits": [
-            { "1": "polo" },
-            { "2": "video games" },
-            { "3": "gym" }
-        ],
         "achievements": []
     }
     },
@@ -358,7 +303,6 @@
         "created_at": "14/06/2022",
         "currency": 82.5,
         "phone": "+63 774 414 0227",
-        "habits": [],
         "achievements": [
             { "1":"1-day streak"}
         ]
@@ -377,9 +321,6 @@
         "created_at": "07/10/2019",
         "currency": 19.4,
         "phone": "+57 335 166 9570",
-        "habits": [
-            { "1": "taekwondo" }
-        ],
         "achievements": []
     }
     },
@@ -396,10 +337,6 @@
         "created_at": "25/07/2018",
         "currency": 88.95,
         "phone": "+30 134 392 0129",
-        "habits": [
-            { "1": "coding" },
-            { "1": "hiking" }
-        ],
         "achievements": [
             { "1": "1-month streak" }
         ]
