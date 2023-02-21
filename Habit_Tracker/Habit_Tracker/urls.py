@@ -4,8 +4,6 @@ from rest_framework import routers
 from People import views
 # from Users.views import get_user_habits
 
-
-
 router = routers.DefaultRouter()
 router.register(r'people', views.PersonViewSet)
 router.register(r'rewards', views.RewardsViewSet)
@@ -16,5 +14,4 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     # path('users/<int:id>/habits', get_user_habits)
-
 ]
