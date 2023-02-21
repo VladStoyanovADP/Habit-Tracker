@@ -25,6 +25,7 @@ def get_user_habits(request, user_id):
 
 @api_view(['GET'])
 def get_user_habits_byId(request, user_id, habit_id):
+    # nathan
     queryset = Habits.objects.filter(user_id=user_id, id=habit_id)
     serializer = HabitsSerializer(queryset, many = True, context={'request' : request})
     return Response(serializer.data)
