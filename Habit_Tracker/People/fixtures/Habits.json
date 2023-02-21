@@ -1,0 +1,46 @@
+[
+  {
+    "model": "People.Habits",
+    "habit_id": 1,
+    "fields": {
+      "user_id": 18,
+      "habit_name": "Exercise",
+      "habit_category": "health",
+      "habit_type": "weekly",
+      "habit_streak": 5
+    }
+  },
+  {
+    "model": "People.Habits",
+    "habit_id": 2,
+    "fields": {
+      "user_id": 11,
+      "habit_name": "8 hrs of sleep",
+      "habit_category": "health",
+      "habit_type": "weekly",
+      "habit_streak": 7
+    }
+  },
+  {
+    "model": "People.Habits",
+    "habit_id": 3,
+    "fields": {
+      "user_id": 11,
+      "habit_name": "10 glasses of water",
+      "habit_category": "health",
+      "habit_type": "weekly",
+      "habit_streak": 2
+    }
+  },
+  {
+    "model": "People.Habits",
+    "habit_id": 4,
+    "fields": {
+      "user_id": 11,
+      "habit_name": "200 pushups",
+      "habit_category": "health",
+      "habit_type": "weekly",
+      "habit_streak": 7
+    }
+  }
+]
