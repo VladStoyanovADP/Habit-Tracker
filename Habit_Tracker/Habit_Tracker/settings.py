@@ -28,7 +28,8 @@ INSTALLED_APPS = [
     'People.apps.PeopleConfig',
     'Rewards.apps.RewardsConfig',
     'Users.apps.UsersConfig',
-    'rest_framework'
+    'Achievements.apps.AchievementsConfig',
+    'rest_framework',
 
 ]
 
