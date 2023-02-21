@@ -1,59 +1,71 @@
 [
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 1,
         "fields": 
         {
+            "user_id": 7,
             "rewards_name" : "extra snack",
             "rewards_description" : "have an extra snack after dinner",
             "rewards_cost": 50
         }
     },
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 2,
         "fields": 
         {
+            "user_id": 14,
             "rewards_name" : "Video games",
             "rewards_description" : "Play an extra hour of video games",
             "rewards_cost": 100
         }
     },
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 3,
         "fields": 
-        {
+        {   
+            "user_id": 2,
             "rewards_name" : "Day off habits",
             "rewards_description" : "take a day off from your daily routine",
             "rewards_cost": 200
         }
     },
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 4,
         "fields": 
         {
+            "user_id": 18,
             "rewards_name" : "Go out clubbing",
             "rewards_description" : "Go out to the club",
             "rewards_cost": 300
         }
     },
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 5,
         "fields": 
-        {
+        {   
+            "user_id": 5,
             "rewards_name" : "Buy Clothes",
             "rewards_description" : "Go to store and buy new clothes",
             "rewards_cost": 150
         }
     },
     {
-        "model" : "Rewards.Rewards",
+        "model" : "People.Rewards",
+        
         "reward_id": 6,
         "fields": 
         {
+            "user_id": 11,
             "rewards_name" : "Get takeout",
             "rewards_description" : "order takeaway food",
             "rewards_cost": 150

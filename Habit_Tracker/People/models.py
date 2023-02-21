@@ -13,3 +13,9 @@ class Person(models.Model):
     phone = models.CharField(max_length = 20)
     habits = models.JSONField()
     achievements = models.JSONField()
+
+class Rewards(models.Model):
+    rewards_name = models.CharField(max_length = 50)
+    rewards_description = models.CharField(max_length = 300)
+    rewards_cost = models.IntegerField(default = 0)
+    user_id = models.ForeignKey(Person, default = 1, on_delete=models.CASCADE)

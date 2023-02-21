@@ -26,11 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'People.apps.PeopleConfig',
-    'Rewards.apps.RewardsConfig',
     'Users.apps.UsersConfig',
     'Achievements.apps.AchievementsConfig',
     'rest_framework',
-
 ]
 
 MIDDLEWARE = [
