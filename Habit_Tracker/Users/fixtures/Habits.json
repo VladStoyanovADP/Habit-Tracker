@@ -1,0 +1,48 @@
+[
+    {
+        "model" : "Users.Habits",
+        "fields": {
+          "habit_id": 1,
+          "habit_name": "Exercise",
+          "habit_category": "health",
+          "habit_type": "weekly",
+          "habit_streak": 5
+        }
+    },
+    {
+        "model" : "Users.Habits",
+        
+        "reward_id": 2,
+        "fields": 
+        {
+            "user_id": 14,
+            "rewards_name" : "Video games",
+            "rewards_description" : "Play an extra hour of video games",
+            "rewards_cost": 100
+        }
+    },
+    {
+        "model" : "Users.Habits",
+        
+        "reward_id": 3,
+        "fields": 
+        {   
+            "user_id": 2,
+            "rewards_name" : "Day off habits",
+            "rewards_description" : "take a day off from your daily routine",
+            "rewards_cost": 200
+        }
+    },
+    {
+        "model" : "Users.Habits",
+        
+        "reward_id": 4,
+        "fields": 
+        {
+            "user_id": 18,
+            "rewards_name" : "Go out clubbing",
+            "rewards_description" : "Go out to the club",
+            "rewards_cost": 300
+        }
+    }
+]
