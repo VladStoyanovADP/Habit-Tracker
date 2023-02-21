@@ -1,4 +1,6 @@
 from rest_framework import viewsets
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
 from .serializers import PersonSerializer, RewardsSerializer, HabitsSerializer
 from .models import Person, Rewards, Habits
 
@@ -13,3 +15,9 @@ class RewardsViewSet(viewsets.ModelViewSet):
 class HabitsViewSet(viewsets.ModelViewSet):
     queryset = Habits.objects.all()
     serializer_class = HabitsSerializer
+    
+@api_view(['GET'])
+def get_user_habits(request, user_id):
+    queryset = Habits.objects.filter(user_id=user_id)
+    serializer = HabitsSerializer(queryset, many=True, context={'request': request})
+    return Response(serializer.data)

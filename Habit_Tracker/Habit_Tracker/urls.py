@@ -13,4 +13,5 @@ router.register(r'achievements', achviews.AchievementsViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('users/<int:user_id>/habits', userviews.get_user_habits)
 ]
