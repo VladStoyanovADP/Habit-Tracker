@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework import routers
 from Achievements import achviews
-from People import userviews
+from Users import userviews
 
 
 

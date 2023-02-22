@@ -1,7 +1,7 @@
 import json
 from django.core.management.base import BaseCommand
-from People.models import Person
-from People.models import Rewards
+from Users.models import Person
+from Users.models import Rewards
 
 class Command(BaseCommand):
     help = "Load data from a JSON file"

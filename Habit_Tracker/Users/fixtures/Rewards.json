@@ -1,6 +1,6 @@
 [
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 1,
         "fields": 
@@ -12,7 +12,7 @@
         }
     },
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 2,
         "fields": 
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 3,
         "fields": 
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 4,
         "fields": 
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 5,
         "fields": 
@@ -60,7 +60,7 @@
         }
     },
     {
-        "model" : "People.Rewards",
+        "model" : "Users.Rewards",
         
         "reward_id": 6,
         "fields": 
