@@ -1,6 +1,6 @@
 [
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 1,
     "fields": {
       "name": "Nollie Oosthout de Vree",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 2,
     "fields": {
       "name": "Amabel Salomon",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 3,
     "fields": {
       "name": "Daren Barday",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 4,
     "fields": {
       "name": "Leticia Feak",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 5,
     "fields": {
       "name": "Rad Oglesbee",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 6,
     "fields": {
       "name": "Hartley Babon",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 7,
     "fields": {
       "name": "Ashia Ateridge",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 8,
     "fields": {
       "name": "Brande Mussett",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 9,
     "fields": {
       "name": "Cletus Munkley",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 10,
     "fields": {
       "name": "Carlee Bowdler",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 11,
     "fields": {
       "name": "Yevette Dittson",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 12,
     "fields": {
       "name": "Rowen Lindelof",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 13,
     "fields": {
       "name": "Maurizio Carlisso",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 14,
     "fields": {
       "name": "Dalenna Canelas",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 15,
     "fields": {
       "name": "Josey Heister",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 16,
     "fields": {
       "name": "Benito Wride",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 17,
     "fields": {
       "name": "Rozanne Dadley",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 18,
     "fields": {
       "name": "Arabella Kernermann",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 19,
     "fields": {
       "name": "Joya Pesic",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "model": "People.person",
+    "model": "Users.person",
     "id": 20,
     "fields": {
       "name": "Tori Selly",

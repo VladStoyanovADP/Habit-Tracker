@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class PeopleConfig(AppConfig):
+class UsersConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'People'
+    name = 'Users'
 
 class RewardsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'

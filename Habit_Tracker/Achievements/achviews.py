@@ -1,10 +1,10 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from People.serializers import PersonSerializer
+from Users.serializers import PersonSerializer
 from .serializers import AchievementsSerializer
 from .models import Achievements
-from People.models import Person, Rewards
+from Users.models import Person, Rewards
 
 
 class AchievementsViewSet(viewsets.ModelViewSet):

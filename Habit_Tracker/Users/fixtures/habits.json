@@ -1,6 +1,6 @@
 [
   {
-    "model": "People.Habits",
+    "model": "Users.Habits",
     "habit_id": 1,
     "fields": {
       "user_id": 18,
@@ -11,7 +11,7 @@
     }
   },
   {
-    "model": "People.Habits",
+    "model": "Users.Habits",
     "habit_id": 2,
     "fields": {
       "user_id": 11,
@@ -22,7 +22,7 @@
     }
   },
   {
-    "model": "People.Habits",
+    "model": "Users.Habits",
     "habit_id": 3,
     "fields": {
       "user_id": 11,
@@ -33,7 +33,7 @@
     }
   },
   {
-    "model": "People.Habits",
+    "model": "Users.Habits",
     "habit_id": 4,
     "fields": {
       "user_id": 11,
