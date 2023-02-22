@@ -14,6 +14,8 @@ router.register(r'achievements', achviews.AchievementsViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('users/<int:user_id>/rewards', userviews.get_user_rewards),
+    path('users/<int:user_id>/rewards/<int:reward_id>', userviews.get_user_rew_id),
     path('users/<int:user_id>/habits', userviews.get_user_habits),
     path('users/<int:user_id>/habits/<int:habit_id>', userviews.get_user_habits_byId),
     path('users/<int:user_id>/achievements', achviews.get_user_achievements)
