@@ -1,4 +1,5 @@
 import psycopg2
+import os
 
 #establishing the connection
 conn = psycopg2.connect(
@@ -19,3 +20,13 @@ print("Database created successfully........")
 #Closing the connection
 
 conn.close()
+
+# Change directory to Django project directory
+os.chdir('./Habit_Tracker/')
+
+# Run migrations
+os.system('python manage.py makemigrations')
+os.system('python manage.py migrate')
+
+# Load data from fixtures
+os.system('python manage.py loaddata */fixtures/*.json')
