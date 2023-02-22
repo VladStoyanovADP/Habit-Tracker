@@ -15,9 +15,9 @@ class RewardsViewSet(viewsets.ModelViewSet):
 class HabitsViewSet(viewsets.ModelViewSet):
     queryset = Habits.objects.all()
     serializer_class = HabitsSerializer
-    
-    
-@api_view(['GET'])
+     
+
+@api_view(['GET', 'POST'])
 def get_user_habits(request, user_id):
     queryset = Habits.objects.filter(user_id=user_id)
     serializer = HabitsSerializer(queryset, many=True, context={'request': request})
