@@ -42,3 +42,10 @@ def get_user_habits_byId(request, user_id, habit_id):
     queryset = Habits.objects.get(user_id=user_id, id=habit_id)
     serializer = HabitsSerializer(queryset, context={'request' : request})
     return Response(serializer.data)
+
+# Parametric endpoint requests - currency
+@api_view(['GET', 'PATCH'])
+def user_currency(request, user_id):
+    user = Person.objects.get(id=user_id)
+    currency = user.currency
+    return Response({ 'currency': currency })
