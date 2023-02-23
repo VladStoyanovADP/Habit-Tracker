@@ -22,7 +22,7 @@ print("Database created successfully........")
 conn.close()
 
 # Change directory to Django project directory
-os.chdir('./Habit_Tracker/')
+# os.chdir('./Habit_Tracker')
 
 # Run migrations
 os.system('python manage.py makemigrations Achievements')
@@ -31,3 +31,6 @@ os.system('python manage.py migrate')
 
 # Load data from fixtures
 os.system('python manage.py loaddata */fixtures/*.json')
+
+# Run server
+os.system('python manage.py runserver')
