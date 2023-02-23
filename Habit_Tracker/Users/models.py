@@ -11,7 +11,7 @@ class Person(models.Model):
     created_at = models.CharField(max_length = 20)
     currency = models.DecimalField(max_digits = 15, decimal_places=2)
     phone = models.CharField(max_length = 20)
-    achievements = models.ManyToManyField(Achievements, related_name='achievement_id')
+    # achievements = models.ManyToManyField(Achievements, related_name='achievement_id')
 
 class Rewards(models.Model):
     rewards_name = models.CharField(max_length = 50)
