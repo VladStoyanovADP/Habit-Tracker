@@ -4,7 +4,7 @@ from .models import Person, Rewards, Habits
 class PersonSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Person
-        fields = ('name', 'username', 'password', 'email', 'avatar_url', 'description', 'created_at', 'currency', 'phone', 'achievements')
+        fields = ('name', 'username', 'password', 'email', 'avatar_url', 'description', 'created_at', 'currency', 'phone')
 
 class RewardsSerializer(serializers.HyperlinkedModelSerializer):
     user_id = serializers.SlugRelatedField(
