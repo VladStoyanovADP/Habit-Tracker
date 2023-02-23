@@ -1,9 +1,10 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from rest_framework_simplejwt.views import TokenObtainPairView
 from .models import Person, Rewards, Habits
 from Achievements.models import Achievements
-from .serializers import PersonSerializer, RewardsSerializer, HabitsSerializer
+from .serializers import PersonSerializer, RewardsSerializer, HabitsSerializer, TokenViewSerializer
 from Achievements.serializers import AchievementsSerializer
 
 # Classes
@@ -68,3 +69,17 @@ def user_currency(request, user_id):
     user = Person.objects.get(id=user_id)
     currency = user.currency
     return Response({ 'currency': currency })
+
+
+class TokenView(TokenObtainPairView):
+    serializer_class = TokenViewSerializer
+    
+    def post(self, request, *args, **kwargs):
+        response = super().post(request, *args, **kwargs)
+        if response.status_code == 200:
+            response.data = {
+                'success': True,
+                'message': 'Login successful'
+            }
+        return response
+    

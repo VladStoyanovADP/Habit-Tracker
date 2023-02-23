@@ -3,6 +3,7 @@ from django.contrib import admin
 from rest_framework import routers
 from Achievements import achviews
 from Users import userviews
+from Users.userviews import TokenView
 
 
 
@@ -23,4 +24,5 @@ urlpatterns = [
     path('users/<int:user_id>/achievements', userviews.user_achievements),
     path('users/<int:user_id>/achievements/<int:achievement_id>', userviews.user_achiev_id),
     path('users/<int:user_id>/currency', userviews.user_currency),
+    path('login', TokenView.as_view(), name='token_obtain'),
 ]
