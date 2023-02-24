@@ -1,11 +1,9 @@
 from pathlib import Path
-from dotenv import load_dotenv
 import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-load_dotenv(BASE_DIR / '.env')
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', '0').lower() in ['true', 't', '1']
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(' ')
