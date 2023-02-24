@@ -1,6 +1,6 @@
 # Habit-Tracker
-
-# Install python3-django
+(Valentina edit: README needs update, will do that over the weekend)
+## Install python3-django
 
 psql -f setup-db.sql
 
