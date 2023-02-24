@@ -18,7 +18,9 @@ defer==1.0.6
 distro==1.4.0
 distro-info===0.23ubuntu1
 Django==4.1.7
+dj-database-url==3.6.0
 entrypoints==0.3
+gunicorn==20.1.0
 httplib2==0.14.0
 hyperlink==19.0.0
 idna==2.8
@@ -56,6 +58,7 @@ pyrsistent==0.15.5
 pyserial==3.4
 python-apt==2.0.0+ubuntu0.20.4.8
 python-debian===0.1.36ubuntu1
+python-dotenv==1.0.0
 pytz==2019.3
 PyYAML==5.3.1
 requests==2.22.0
