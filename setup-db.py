@@ -31,6 +31,3 @@ os.system('python manage.py migrate')
 
 # Load data from fixtures
 os.system('python manage.py loaddata */fixtures/*.json')
-
-# Run server
-os.system('python manage.py runserver')
