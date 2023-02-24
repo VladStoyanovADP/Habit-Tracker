@@ -6,12 +6,12 @@ class Person(models.Model):
     username = models.CharField(max_length = 80)
     password = models.CharField(max_length = 80)
     email = models.EmailField(max_length = 80)
-    avatar_url = models.URLField(max_length = 100)
-    description = models.CharField(max_length = 100)
-    created_at = models.CharField(max_length = 20)
-    currency = models.DecimalField(max_digits = 15, decimal_places=2)
-    phone = models.CharField(max_length = 20)
-    achievements = models.ManyToManyField(Achievements, related_name='achievement_id')
+    avatar_url = models.URLField(max_length = 100, blank=True)
+    description = models.CharField(max_length = 100, blank=True)
+    created_at = models.CharField(max_length = 20, blank=True)
+    currency = models.DecimalField(max_digits = 15, decimal_places=2, blank=True)
+    phone = models.CharField(max_length = 20, blank=True)
+    achievements = models.ManyToManyField(Achievements, related_name='achievement_id', blank=True)
 
 class Rewards(models.Model):
     rewards_name = models.CharField(max_length = 50)

@@ -1,5 +1,4 @@
 from rest_framework import serializers
-from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from .models import Person, Rewards, Habits
 
 class PersonSerializer(serializers.ModelSerializer):
@@ -17,10 +16,3 @@ class HabitsSerializer(serializers.ModelSerializer):
         model = Habits
         fields = ['habit_name', 'habit_category', 'habit_type', 'habit_streak', 'user_id']
 
-class TokenViewSerializer(TokenObtainPairSerializer):
-    @classmethod
-    def get_token(cls, user):
-        token = super().get_token(user)
-        token['username'] = user.username
-        token['email'] = user.email
-        return token
