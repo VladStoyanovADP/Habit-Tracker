@@ -79,6 +79,16 @@ WSGI_APPLICATION = 'Habits.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600)
+    #{
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': 'habit_tracker_db',
+        #'USER': '',
+        #'PASSWORD': '',
+        #'HOST': 'localhost',
+        #'PORT': '5432'
+    #}
+    
+
 }
 
 
