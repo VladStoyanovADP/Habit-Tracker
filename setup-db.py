@@ -11,7 +11,7 @@ conn.autocommit = True
 cursor = conn.cursor()
 cursor.execute("DROP DATABASE IF EXISTS habit_tracker_db")
 #Preparing query to create a database
-sql = '''CREATE database habit_tracker_db''';
+sql = '''CREATE database habit_tracker_db'''
 
 #Creating a database
 cursor.execute(sql)
@@ -27,6 +27,7 @@ conn.close()
 # Run migrations
 os.system('python manage.py makemigrations Achievements')
 os.system('python manage.py makemigrations Users')
+os.system('python manage.py makemigrations Authentication')
 os.system('python manage.py migrate')
 
 # Load data from fixtures

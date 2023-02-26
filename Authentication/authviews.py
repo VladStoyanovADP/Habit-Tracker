@@ -2,7 +2,7 @@ from rest_framework import viewsets, generics, permissions, status
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
 from .serializers import TokenViewSerializer, RegistrationSerializer
-from Users.serializers import 
+# from Users.serializers import 
 import uuid
 
 # Registration 

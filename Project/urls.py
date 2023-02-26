@@ -31,11 +31,11 @@ urlpatterns = [
     #user-currency
     path('users/<int:user_id>/currency', userviews.user_currency),
     #authentication
-    path('register/', RegistrationAPIView.as_view(), name='register'),
-    path('userlogin/', TokenObtainPairView.as_view, name='login')
-    path('refresh-token/', TokenRefreshView.as_view(), name='refreshtoken')
+    # path('register/', RegistrationAPIView.as_view(), name='register'),
+    # path('userlogin/', TokenObtainPairView.as_view(), name='login')
+    # path('refresh-token/', TokenRefreshView.as_view(), name='refreshtoken')
     #notsureifwork
-    path('login', authviews.as_view(), name='token_obtain'),
-    path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    # path('login', authviews.as_view(), name='token_obtain'),
+    # path('admin/', admin.site.urls),
+    # path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
