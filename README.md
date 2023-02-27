@@ -2,8 +2,6 @@
 (Valentina edit: README needs update, will do that over the weekend)
 ## Install python3-django
 
-psql -f setup-db.sql
-
 pip install djangorestframework
 
 python3 -m venv .venv
