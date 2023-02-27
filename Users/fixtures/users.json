@@ -1,322 +1,221 @@
 [
   {
-    "model": "Users.person",
-    "id": 1,
+    "model": "Users.user",
+    "user_id": 1,
     "fields": {
-      "name": "Nollie Oosthout de Vree",
+      "user_firstname": "Nollie",
+      "user_surname": "Oosthout de Vree",
       "username": "noosthout0",
-      "password": "VR1I7KgnT8Mj",
-      "email": "noosthout0@stanford.edu",
-      "avatar_url": "https://robohash.org/quosillumearum.png?size=50x50&set=set1",
-      "description": "Universal 5th generation hub",
-      "created_at": "14/11/2019",
-      "currency": 58.13,
-      "phone": "+51 513 897 6195",
-      "achievements": [1, 2]
+      "user_password": "VR1I7KgnT8Mj"
     }
   },
   {
-    "model": "Users.person",
-    "id": 2,
+    "model": "Users.user",
+    "user_id": 2,
     "fields": {
-      "name": "Amabel Salomon",
+      "user_firstname": "Amabel ",
+      "user_surname": "Salomon",
       "username": "asalomon1",
-      "password": "1qOAmrjJJ",
-      "email": "asalomon1@smugmug.com",
-      "avatar_url": "https://robohash.org/inmolestiaeet.png?size=50x50&set=set1",
-      "description": "Organic global benchmark",
-      "created_at": "06/02/2020",
-      "currency": 6.85,
-      "phone": "+420 929 558 9328",
-      "achievements": [1, 2]
+      "user_password": "1qOAmrjJJ",
+      "user_email": "asalomon1@smugmug.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 3,
+    "model": "Users.user",
+    "user_id": 3,
     "fields": {
-      "name": "Daren Barday",
+      "user_firstname": "Daren ",
+      "user_surname": "Barday",
       "username": "dbarday2",
-      "password": "dms4rsZPmr",
-      "email": "dbarday2@baidu.com",
-      "avatar_url": "https://robohash.org/voluptatemestodit.png?size=50x50&set=set1",
-      "description": "Balanced needs-based capacity",
-      "created_at": "01/07/2020",
-      "currency": 47.01,
-      "phone": "+264 686 627 8232",
-      "achievements": [1, 2]
+      "user_password": "dms4rsZPmr",
+      "user_email": "dbarday2@bauser_idu.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 4,
+    "model": "Users.user",
+    "user_id": 4,
     "fields": {
-      "name": "Leticia Feak",
+      "user_firstname": "Leticia ",
+      "user_surname": "Feak",
       "username": "lfeak3",
-      "password": "PsvnGE",
-      "email": "lfeak3@weibo.com",
-      "avatar_url": "https://robohash.org/estquiased.png?size=50x50&set=set1",
-      "description": "Optimized multi-state application",
-      "created_at": "06/05/2017",
-      "currency": 82.64,
-      "phone": "+234 837 413 0966",
-      "achievements": [1, 2]
+      "user_password": "PsvnGE",
+      "user_email": "lfeak3@weibo.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 5,
+    "model": "Users.user",
+    "user_id": 5,
     "fields": {
-      "name": "Rad Oglesbee",
+      "user_firstname": "Rad ",
+      "user_surname": "Oglesbee",
       "username": "roglesbee4",
-      "password": "rO7I3TrV8",
-      "email": "roglesbee4@google.fr",
-      "avatar_url": "https://robohash.org/placeatutnihil.png?size=50x50&set=set1",
-      "description": "Adaptive national algorithm",
-      "created_at": "15/07/2021",
-      "currency": 65.84,
-      "phone": "+86 874 548 4309",
-      "achievements": [1, 2]
+      "user_password": "rO7I3TrV8",
+      "user_email": "roglesbee4@google.fr"
     }
   },
   {
-    "model": "Users.person",
-    "id": 6,
+    "model": "Users.user",
+    "user_id": 6,
     "fields": {
-      "name": "Hartley Babon",
+      "user_firstname": "Hartley ",
+      "user_surname": "Babon",
       "username": "hbabon5",
-      "password": "rPEHPNEF",
-      "email": "hbabon5@google.com",
-      "avatar_url": "https://robohash.org/praesentiumdistinctioquos.png?size=50x50&set=set1",
-      "description": "Fundamental directional access",
-      "created_at": "29/06/2022",
-      "currency": 85.15,
-      "phone": "+212 259 432 8053",
-      "achievements": [1, 2]
+      "user_password": "rPEHPNEF",
+      "user_email": "hbabon5@google.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 7,
+    "model": "Users.user",
+    "user_id": 7,
     "fields": {
-      "name": "Ashia Ateridge",
-      "username": "aateridge6",
-      "password": "WBmaLrv",
-      "email": "aateridge6@wunderground.com",
-      "avatar_url": "https://robohash.org/quisconsecteturcupiditate.png?size=50x50&set=set1",
-      "description": "Synergized transitional projection",
-      "created_at": "09/03/2017",
-      "currency": 98.28,
-      "phone": "+265 741 220 4217",
-      "achievements": [1, 2]
+      "user_firstname": "Ashia ",
+      "user_surname": "Ateruser_idge",
+      "username": "aateruser_idge6",
+      "user_password": "WBmaLrv",
+      "user_email": "aateruser_idge6@wunderground.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 8,
+    "model": "Users.user",
+    "user_id": 8,
     "fields": {
-      "name": "Brande Mussett",
+      "user_firstname": "Brande ",
+      "user_surname": "Mussett",
       "username": "bmussett7",
-      "password": "qEazubRPfOY",
-      "email": "bmussett7@washingtonpost.com",
-      "avatar_url": "https://robohash.org/hicquiaexercitationem.png?size=50x50&set=set1",
-      "description": "Function-based hybrid info-mediaries",
-      "created_at": "30/03/2019",
-      "currency": 52.9,
-      "phone": "+855 210 612 3793",
-      "achievements": [1, 2]
+      "user_password": "qEazubRPfOY",
+      "user_email": "bmussett7@washingtonpost.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 9,
+    "model": "Users.user",
+    "user_id": 9,
     "fields": {
-      "name": "Cletus Munkley",
+      "user_firstname": "Cletus ",
+      "user_surname": "Munkley",
       "username": "cmunkley8",
-      "password": "9XUtClMGq",
-      "email": "cmunkley8@ox.ac.uk",
-      "avatar_url": "https://robohash.org/doloremenimnon.png?size=50x50&set=set1",
-      "description": "Face to face encompassing projection",
-      "created_at": "27/10/2021",
-      "currency": 32.99,
-      "phone": "+63 169 522 6508",
-      "achievements": [1, 2]
+      "user_password": "9XUtClMGq",
+      "user_email": "cmunkley8@ox.ac.uk"
     }
   },
   {
-    "model": "Users.person",
-    "id": 10,
+    "model": "Users.user",
+    "user_id": 10,
     "fields": {
-      "name": "Carlee Bowdler",
+      "user_firstname": "Carlee ",
+      "user_surname": "Bowdler",
       "username": "cbowdler9",
-      "password": "rMQDNl",
-      "email": "cbowdler9@plala.or.jp",
-      "avatar_url": "https://robohash.org/sitlaudantiumoccaecati.png?size=50x50&set=set1",
-      "description": "Adaptive bifurcated local area network",
-      "created_at": "19/12/2017",
-      "currency": 99.89,
-      "phone": "+81 848 837 0327",
-      "achievements": [1, 2]
+      "user_password": "rMQDNl",
+      "user_email": "cbowdler9@plala.or.jp"
     }
   },
   {
-    "model": "Users.person",
-    "id": 11,
+    "model": "Users.user",
+    "user_id": 11,
     "fields": {
-      "name": "Yevette Dittson",
+      "user_firstname": "Yevette ",
+      "user_surname": "Dittson",
       "username": "ydittsona",
-      "password": "InRv1tQXH",
-      "email": "ydittsona@sohu.com",
-      "avatar_url": "https://robohash.org/providenteaiure.png?size=50x50&set=set1",
-      "description": "Open-architected asymmetric database",
-      "created_at": "27/07/2019",
-      "currency": 73.13,
-      "phone": "+62 602 682 3295",
-      "achievements": [1, 2]
+      "user_password": "InRv1tQXH",
+      "user_email": "ydittsona@sohu.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 12,
+    "model": "Users.user",
+    "user_id": 12,
     "fields": {
-      "name": "Rowen Lindelof",
+      "user_firstname": "Rowen ",
+      "user_surname": "Lindelof",
       "username": "rlindelofb",
-      "password": "IhVatk0AZs7V",
-      "email": "rlindelofb@lycos.com",
-      "avatar_url": "https://robohash.org/utevenietaut.png?size=50x50&set=set1",
-      "description": "Pre-emptive actuating middleware",
-      "created_at": "27/03/2021",
-      "currency": 96.41,
-      "phone": "+33 180 780 4230",
-      "achievements": [1, 2]
+      "user_password": "IhVatk0AZs7V",
+      "user_email": "rlindelofb@lycos.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 13,
+    "model": "Users.user",
+    "user_id": 13,
     "fields": {
-      "name": "Maurizio Carlisso",
+      "user_firstname": "Maurizio ",
+      "user_surname": "Carlisso",
       "username": "mcarlissoc",
-      "password": "V29WxG",
-      "email": "mcarlissoc@census.gov",
-      "avatar_url": "https://robohash.org/enimeaquenemo.png?size=50x50&set=set1",
-      "description": "Robust real-time capability",
-      "created_at": "16/07/2018",
-      "currency": 17.96,
-      "phone": "+7 435 157 1343",
-      "achievements": [1, 2]
+      "user_password": "V29WxG",
+      "user_email": "mcarlissoc@census.gov"
     }
   },
   {
-    "model": "Users.person",
-    "id": 14,
+    "model": "Users.user",
+    "user_id": 14,
     "fields": {
-      "name": "Dalenna Canelas",
+      "user_firstname": "Dalenna ",
+      "user_surname": "Canelas",
       "username": "dcanelasd",
-      "password": "NM5z0WT",
-      "email": "dcanelasd@washington.edu",
-      "avatar_url": "https://robohash.org/nisiautemquaerat.png?size=50x50&set=set1",
-      "description": "Open-architected clear-thinking superstructure",
-      "created_at": "15/09/2021",
-      "currency": 46.13,
-      "phone": "+86 710 146 1400",
-      "achievements": [1, 2]
+      "user_password": "NM5z0WT",
+      "user_email": "dcanelasd@washington.edu"
     }
   },
   {
-    "model": "Users.person",
-    "id": 15,
+    "model": "Users.user",
+    "user_id": 15,
     "fields": {
-      "name": "Josey Heister",
+      "user_firstname": "Josey ",
+      "user_surname": "Heister",
       "username": "jheistere",
-      "password": "eNADnKfTKc27",
-      "email": "jheistere@boston.com",
-      "avatar_url": "https://robohash.org/eiusexatque.png?size=50x50&set=set1",
-      "description": "Cross-group grid-enabled help-desk",
-      "created_at": "07/01/2021",
-      "currency": 60.78,
-      "phone": "+30 823 302 4517",
-      "achievements": [1, 2]
+      "user_password": "eNADnKfTKc27",
+      "user_email": "jheistere@boston.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 16,
+    "model": "Users.user",
+    "user_id": 16,
     "fields": {
-      "name": "Benito Wride",
-      "username": "bwridef",
-      "password": "Wq20rfB76kAr",
-      "email": "bwridef@mapquest.com",
-      "avatar_url": "https://robohash.org/dolorexercitationemlabore.png?size=50x50&set=set1",
-      "description": "Monitored needs-based installation",
-      "created_at": "05/06/2018",
-      "currency": 64.7,
-      "phone": "+86 349 829 7851",
-      "achievements": [1, 2]
+      "user_firstname": "Benito ",
+      "user_surname": "Wruser_ide",
+      "username": "bwruser_idef",
+      "user_password": "Wq20rfB76kAr",
+      "user_email": "bwruser_idef@mapquest.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 17,
+    "model": "Users.user",
+    "user_id": 17,
     "fields": {
-      "name": "Rozanne Dadley",
+      "user_firstname": "Rozanne ",
+      "user_surname": "Dadley",
       "username": "rdadleyg",
-      "password": "WTfrGu49hPX",
-      "email": "rdadleyg@army.mil",
-      "avatar_url": "https://robohash.org/enimautomnis.png?size=50x50&set=set1",
-      "description": "De-engineered uniform standardization",
-      "created_at": "19/02/2021",
-      "currency": 42.22,
-      "phone": "+86 550 594 0054",
-      "achievements": [1, 2]
+      "user_password": "WTfrGu49hPX",
+      "user_email": "rdadleyg@army.mil"
     }
   },
   {
-    "model": "Users.person",
-    "id": 18,
+    "model": "Users.user",
+    "user_id": 18,
     "fields": {
-      "name": "Arabella Kernermann",
+      "user_firstname": "Arabella ",
+      "user_surname": "Kernermann",
       "username": "akernermannh",
-      "password": "zkwecEJZ2Pcr",
-      "email": "akernermannh@pcworld.com",
-      "avatar_url": "https://robohash.org/magnialiquidmagnam.png?size=50x50&set=set1",
-      "description": "Implemented logistical benchmark",
-      "created_at": "14/06/2022",
-      "currency": 82.5,
-      "phone": "+63 774 414 0227",
-      "achievements": [1, 2]
+      "user_password": "zkwecEJZ2Pcr",
+      "user_email": "akernermannh@pcworld.com"
     }
   },
   {
-    "model": "Users.person",
-    "id": 19,
+    "model": "Users.user",
+    "user_id": 19,
     "fields": {
-      "name": "Joya Pesic",
+      "user_firstname": "Joya ",
+      "user_surname": "Pesic",
       "username": "jpesici",
-      "password": "7DejVHVyF",
-      "email": "jpesici@usa.gov",
-      "avatar_url": "https://robohash.org/repudiandaesapientenemo.png?size=50x50&set=set1",
-      "description": "Robust client-driven function",
-      "created_at": "07/10/2019",
-      "currency": 19.4,
-      "phone": "+57 335 166 9570",
-      "achievements": [1, 2]
+      "user_password": "7DejVHVyF",
+      "user_email": "jpesici@usa.gov"
     }
   },
   {
-    "model": "Users.person",
-    "id": 20,
+    "model": "Users.user",
+    "user_id": 20,
     "fields": {
-      "name": "Tori Selly",
+      "user_firstname": "Tori ",
+      "user_surname": "Selly",
       "username": "tsellyj",
-      "password": "cdrtYctR",
-      "email": "tsellyj@fastcompany.com",
-      "avatar_url": "https://robohash.org/earumteneturnihil.png?size=50x50&set=set1",
-      "description": "Quality-focused attitude-oriented encoding",
-      "created_at": "25/07/2018",
-      "currency": 88.95,
-      "phone": "+30 134 392 0129",
-      "achievements": [1, 2]
+      "user_password": "cdrtYctR",
+      "user_email": "tsellyj@fastcompany.com"
     }
   }
 ]

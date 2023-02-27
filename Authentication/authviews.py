@@ -1,45 +1,41 @@
-from rest_framework import viewsets, generics, permissions, status
+from rest_framework import generics
 from rest_framework.response import Response
-from rest_framework_simplejwt.views import TokenObtainPairView
-from .serializers import TokenViewSerializer, RegistrationSerializer
-# from Users.serializers import 
-import uuid
+from Users.serializers import UserSerializer
+from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.views import ObtainAuthToken
+from Users.models import User
+from Users.serializers import UserSerializer
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.views import APIView
+from rest_framework import status
 
-# Registration 
-##
+# Registration
 class RegistrationAPIView(generics.GenericAPIView):
-    
-    serializer_class = RegistrationSerializer
-    
-    def post(self, request):
-        serializer = self.get_serializer(data = request.data)
-        
-        
-        if(serializer.is_valid()):
-            serializer.save()
-            return Response({
-                "Request_id": str(uuid.uuid4()),
-                "Message": "Registration Successful",
-                
-                "Person": serializer.data}, status= status.HTTP_201_CREATED
-                )
-            
-        return Response({"Errors": serializer.errors}, status= status.HTTP_400_BAD_REQUEST)
-    
-# Login 
-
-
-# Logout
-
-
-class TokenView(TokenObtainPairView):
-    serializer_class = TokenViewSerializer
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
     
     def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save()
+        token, created = Token.objects.get_or_create(user=user)
+        return Response({
+            "user": UserSerializer(user, context=self.get_serializer_context()).data,
+            "token": token.key
+        })
+    
+# Login 
+class LoginAPIView(ObtainAuthToken):
+    def post(self, request, *args, **kwargs):
         response = super().post(request, *args, **kwargs)
-        if response.status_code == 200:
-            response.data = {
-                'success': True,
-                'message': 'Login successful'
-            }
-        return response
+        token, _ = Token.objects.get_or_create(user=request.user)
+        return Response({'token': token.key})
+
+# Logout
+class LogoutAPIView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request):
+        Token.objects.filter(user=request.user).delete()
+        return Response(status=status.HTTP_200_OK)
+
