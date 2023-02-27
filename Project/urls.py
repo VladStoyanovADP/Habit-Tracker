@@ -30,8 +30,8 @@ urlpatterns = [
     #authentication
     path('admin/', admin.site.urls),
     path('api-token-auth/', obtain_auth_token),
-    path('register/', authviews.RegistrationAPIView.as_view(), name='register'),
-    path('login/', authviews.LoginAPIView.as_view(), name='login'),
-    path('logout/', authviews.LogoutAPIView.as_view(), name='logout'),
+    path('register/', userviews.RegistrationAPIView.as_view(), name='register'),
+    path('login/', userviews.LoginAPIView.as_view(), name='login'),
+    path('logout/', userviews.LogoutAPIView.as_view(), name='logout'),
     
 ]
