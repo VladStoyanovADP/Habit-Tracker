@@ -25,3 +25,5 @@ python manage.py makemigrations Users
 python manage.py migrate
 
 python manage.py loaddata */fixtures/*.json
+
+python manage.py createsu
