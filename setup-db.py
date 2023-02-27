@@ -27,7 +27,6 @@ conn.close()
 # Run migrations
 os.system('python manage.py makemigrations Achievements')
 os.system('python manage.py makemigrations Users')
-os.system('python manage.py makemigrations Authentication')
 os.system('python manage.py migrate')
 
 # Load data from fixtures
