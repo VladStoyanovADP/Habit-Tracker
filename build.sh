@@ -10,6 +10,7 @@ PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9od
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c "DROP TABLE IF EXISTS django_session"
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c "DROP TABLE IF EXISTS auth_permission CASCADE"
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c "DROP TABLE IF EXISTS auth_group CASCADE"
+PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c "DROP TABLE IF EXISTS auth_group_permissions CASCADE"
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c 'DROP TABLE IF EXISTS "Users_habits"'
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c 'DROP TABLE IF EXISTS "Users_rewards"'
 PGPASSWORD=oPXoTh4xYnYjO5Kr2uTcNtUw70HufxrO psql -U host_test_user -h dpg-cfs9odhmbjshr9nevltg-a host_test -c 'DROP TABLE IF EXISTS "Users_person_achievements"'
