@@ -1,20 +1,20 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AbstractUser
 from Achievements.models import Achievements
 
 
-# class User(AbstractUser):
-#     username = models.CharField(max_length = 80, unique=True)
-#     user_firstname = models.CharField(max_length = 80, blank=True, null=False)
-#     user_surname = models.CharField(max_length = 80, blank=True, null=False)
-#     # user_password = models.CharField(max_length = 80, default="password123")
-#     user_email = models.EmailField(max_length = 80)
+class User(AbstractUser):
+    username = models.CharField(max_length = 80, unique=True)
+    user_firstname = models.CharField(max_length = 80, blank=True, null=False)
+    user_surname = models.CharField(max_length = 80, blank=True, null=False)
+    user_password = models.CharField(max_length = 80, default="password123")
+    user_email = models.EmailField(max_length = 80)
     
-#     # USERNAME_FIELD = 'username'
-#     # REQUIRED_FIELDS = ['user_firstname', 'user_surname']
+    # USERNAME_FIELD = 'username'
+    # REQUIRED_FIELDS = ['user_firstname', 'user_surname']
     
-#     def __str__(self):
-#         return f"{self.user_email} - {self.user_firstname} {self.user_surname}"
+    def __str__(self):
+        return f"{self.user_email} - {self.user_firstname} {self.user_surname}"
     
 class Profile(models.Model):
     user_id = models.OneToOneField(User, default=1,on_delete=models.CASCADE)

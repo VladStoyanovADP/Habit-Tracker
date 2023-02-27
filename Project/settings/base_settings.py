@@ -17,7 +17,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Users.apps.UsersConfig',
     'Achievements.apps.AchievementsConfig',
-    'Authentication.apps.AuthenticationConfig',
     'django_extensions', 
     'django_filters', 
     'corsheaders',

@@ -3,7 +3,6 @@ from django.contrib import admin
 from rest_framework import routers
 from Achievements import achviews
 from Users import userviews
-from Authentication import authviews
 from rest_framework.authtoken.views import obtain_auth_token
 
 router = routers.DefaultRouter()
