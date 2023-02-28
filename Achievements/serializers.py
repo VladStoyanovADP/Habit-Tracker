@@ -4,5 +4,5 @@ from rest_framework import serializers
 class AchievementsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Achievements
-#        fields = ['id', 'achievement_name', 'achievement_img_url', 'achievement_description', 'achievement_unlock', 'achievement_reward']
-        fields = '__all__'
+        fields = ['id', 'achievement_name', 'achievement_img_url', 'achievement_description', 'achievement_unlock', 'achievement_reward']
+#        fields = '__all__'
