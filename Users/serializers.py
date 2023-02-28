@@ -15,7 +15,8 @@ class RewardsSerializer(serializers.ModelSerializer):
 class HabitsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Habits
-        fields = ['habit_id_id', 'habit_name', 'habit_category', 'habit_type', 'habit_streak', 'user_id']
+#        fields = ['habit_id_id', 'habit_name', 'habit_category', 'habit_type', 'habit_streak', 'user_id']
+        fields = '__all__'
 
 class TokenViewSerializer(TokenObtainPairSerializer):
     @classmethod
