@@ -10,13 +10,12 @@ class PersonSerializer(serializers.ModelSerializer):
 class RewardsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rewards
-        fields = ['id', 'rewards_name', 'rewards_description', 'rewards_cost', 'user_id']
+        fields = ('id', 'rewards_name', 'rewards_description', 'rewards_cost', 'user_id')
         
 class HabitsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Habits
-        fields = ['id', 'habit_name', 'habit_category', 'habit_type', 'habit_streak', 'user_id']
-#        fields = '__all__'
+        fields = ('id', 'habit_name', 'habit_category', 'habit_type', 'habit_streak', 'user_id')
 
 class TokenViewSerializer(TokenObtainPairSerializer):
     @classmethod
