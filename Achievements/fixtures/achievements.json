@@ -54,7 +54,7 @@
     "achievement_id": 6,
     "fields": {
       "achievement_name": "6 day streak",
-      "achievement_img_url": "https://www.flaticon.com/free-sticker/success_6000896",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/6000/6000896.png",
       "achievement_description": "Almost your first week on this one!",
       "achievement_reward": 5.0
     }
@@ -84,7 +84,7 @@
     "achievement_id": 9,
     "fields": {
       "achievement_name": "Three week streak",
-      "achievement_img_url": "https://www.flaticon.com/free-sticker/trophy_7602886",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/7602/7602886.png",
       "achievement_description": "Speechless, good work!",
       "achievement_reward": 75
     }
@@ -94,7 +94,7 @@
     "achievement_id": 10,
     "fields": {
       "achievement_name": "One month streak",
-      "achievement_img_url": "https://www.flaticon.com/free-sticker/target_9839891",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/9839/9839891.png",
       "achievement_description": "One whole month being awesome!",
       "achievement_reward": 100
     }
