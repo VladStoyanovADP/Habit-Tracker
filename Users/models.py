@@ -6,7 +6,7 @@ class Person(models.Model):
     username = models.CharField(max_length = 80)
     password = models.CharField(max_length = 80)
     email = models.EmailField(max_length = 80)
-    avatar_url = models.URLField(max_length = 100)
+    avatar_url = models.URLField(max_length = 200)
     description = models.CharField(max_length = 100)
     created_at = models.CharField(max_length = 20)
     currency = models.DecimalField(max_digits = 15, decimal_places=2)
