@@ -4,7 +4,7 @@
     "achievement_id": 1,
     "fields": {
       "achievement_name": "1 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/2655/2655542.png",
       "achievement_description": "One day, right one! ",
       "achievement_reward": 5.0
     }
@@ -14,7 +14,7 @@
     "achievement_id": 2,
     "fields": {
       "achievement_name": "2 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/2655/2655510.png",
       "achievement_description": "Two days, you're doing great!",
       "achievement_reward": 5.0
     }
@@ -24,7 +24,7 @@
     "achievement_id": 3,
     "fields": {
       "achievement_name": "3 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/2655/2655504.png",
       "achievement_description": "Three! Yay!",
       "achievement_reward": 5.0
     }
@@ -34,7 +34,7 @@
     "achievement_id": 4,
     "fields": {
       "achievement_name": "4 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/6000/6000848.png",
       "achievement_description": "Over halfway to a full week!",
       "achievement_reward": 5.0
     }
@@ -44,7 +44,7 @@
     "achievement_id": 5,
     "fields": {
       "achievement_name": "5 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/7005/7005093.png",
       "achievement_description": "Remember the tortoise and the hare!",
       "achievement_reward": 5.0
     }
@@ -54,7 +54,7 @@
     "achievement_id": 6,
     "fields": {
       "achievement_name": "6 day streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/6000/6000896.png",
       "achievement_description": "Almost your first week on this one!",
       "achievement_reward": 5.0
     }
@@ -64,7 +64,7 @@
     "achievement_id": 7,
     "fields": {
       "achievement_name": "One week streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/8876/8876334.png",
       "achievement_description": "YOU DID IT! One week, congratulations!",
       "achievement_reward": 25.0
     }
@@ -74,7 +74,7 @@
     "achievement_id": 8,
     "fields": {
       "achievement_name": "Two week streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/4852/4852328.png",
       "achievement_description": "You just keep on hitting the mark!",
       "achievement_reward": 50.0
     }
@@ -84,7 +84,7 @@
     "achievement_id": 9,
     "fields": {
       "achievement_name": "Three week streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/7602/7602886.png",
       "achievement_description": "Speechless, good work!",
       "achievement_reward": 75
     }
@@ -94,7 +94,7 @@
     "achievement_id": 10,
     "fields": {
       "achievement_name": "One month streak",
-      "achievement_img_url": "www.needtofindimage.co.uk",
+      "achievement_img_url": "https://cdn-icons-png.flaticon.com/512/9839/9839891.png",
       "achievement_description": "One whole month being awesome!",
       "achievement_reward": 100
     }
