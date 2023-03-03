@@ -1,23 +1,55 @@
-# Habit-Tracker
-(Valentina edit: README needs update, will do that over the weekend)
-## Install python3-django
 
-pip install djangorestframework
+# A-bit API
 
-python3 -m venv .venv
+## Project Overview
 
-python3 manage.py makemigrations
+This repository is a the backend of our team project at Northcoders. It's a RESTful API written in Python and using the Django framework alongside PostgreSQL as a database management system and hosted on Render.
 
-python3 manage.py migrate
+A user is able to interact with the databse with the following methods:
 
-python3 manage.py loaddata test_data.json
+* GET a list of all of the users
 
-python3 manage.py runserver
+* GET a list of all the rewards 
+* GET a list of all the habits
+* GET a list of all the achievements
+* GET/PATCH/POST/DELETE a list of all the rewards of a specific user
+* GET/PATCH/POST/DELETE a specific reward of an user
+* GET/PATCH/POST/DELETE a specific habit of an user
+* GET a specific user's achievement
+* GET the currency of a specific user
 
-*** pip needs to be installed
+## Hosted Version
 
-*** psycopg2
+You can see a live version of this API, hosted with `Render`:
 
-*** pip install -r requirements.txt
+https://final-api.onrender.com/
 
+## Setup Instructions
 
+### Installation Requirements
+
+-   **pip**: 20.0.2 or later
+-   **PostgreSQL**:  12.12 or later
+
+### Cloning the repository:
+
+Create a directory to clone the repository to. In your terminal:
+
+```
+$ mkdir <new directory name>
+```
+
+Change directory to the one you just created:
+
+```
+$ cd <new directory name>
+```
+
+Then clone the repository:
+
+```
+$ git clone https://github.com/VladStoyanovADP/Habit-Tracker
+```
+### Database setup and seeding
+
+Run the build.sh script in the root directory to setup your development, test databases and to install the required dependencies.
