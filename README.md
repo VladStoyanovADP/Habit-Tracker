@@ -24,4 +24,6 @@ You can see a live version of this API, hosted with `Render`:
 
 https://final-api.onrender.com/
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iUrSxLPm9Zo/0.jpg)](https://www.youtube.com/watch?v=iUrSxLPm9Zo)
+<video width="320" height="240" controls>
+  <source src="https://raw.githubusercontent.com/VladStoyanovADP/Habit-Tracker/main/raw/video.mp4" type="video/mp4">
+</video>
