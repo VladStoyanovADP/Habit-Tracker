@@ -24,6 +24,4 @@ You can see a live version of this API, hosted with `Render`:
 
 https://final-api.onrender.com/
 
-<video width="320" height="240" controls>
-  <source src="https://raw.githubusercontent.com/VladStoyanovADP/Habit-Tracker/main/raw/video.mp4" type="video/mp4">
-</video>
+Link to our presentation (includes a video of the app in action, the tech we used, and challenges we overcame): https://www.youtube.com/watch?v=iUrSxLPm9Zo&feature=youtu.be
