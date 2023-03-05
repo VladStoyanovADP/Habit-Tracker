@@ -24,32 +24,4 @@ You can see a live version of this API, hosted with `Render`:
 
 https://final-api.onrender.com/
 
-## Setup Instructions
-
-### Installation Requirements
-
--   **pip**: 20.0.2 or later
--   **PostgreSQL**:  12.12 or later
-
-### Cloning the repository:
-
-Create a directory to clone the repository to. In your terminal:
-
-```
-$ mkdir <new directory name>
-```
-
-Change directory to the one you just created:
-
-```
-$ cd <new directory name>
-```
-
-Then clone the repository:
-
-```
-$ git clone https://github.com/VladStoyanovADP/Habit-Tracker
-```
-### Database setup and seeding
-
-Run the build.sh script in the root directory to setup your development, test databases and to install the required dependencies.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iUrSxLPm9Zo/0.jpg)](https://www.youtube.com/watch?v=iUrSxLPm9Zo)
