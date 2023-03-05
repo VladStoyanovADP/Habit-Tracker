@@ -25,3 +25,5 @@ You can see a live version of this API, hosted with `Render`:
 https://final-api.onrender.com/
 
 Link to our presentation (includes a video of the app in action, the tech we used, and challenges we overcame): https://www.youtube.com/watch?v=iUrSxLPm9Zo&feature=youtu.be
+
+The frontend repository for our project can be found here: https://github.com/crypticalfish86/fe-Habit-Tracker
