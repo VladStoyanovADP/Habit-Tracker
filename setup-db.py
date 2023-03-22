@@ -25,9 +25,9 @@ conn.close()
 # os.chdir('./Habit_Tracker')
 
 # Run migrations
-os.system('python manage.py makemigrations Achievements')
-os.system('python manage.py makemigrations Users')
-os.system('python manage.py migrate')
+os.system('python3 manage.py makemigrations Achievements')
+os.system('python3 manage.py makemigrations Users')
+os.system('python3 manage.py migrate')
 
 # Load data from fixtures
-os.system('python manage.py loaddata */fixtures/*.json')
+os.system('python3 manage.py loaddata */fixtures/*.json')
