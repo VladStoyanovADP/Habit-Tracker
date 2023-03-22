@@ -1,221 +1,322 @@
 [
   {
-    "model": "Users.user",
-    "user_id": 1,
+    "model": "Users.person",
+    "id": 1,
     "fields": {
-      "user_firstname": "Nollie",
-      "user_surname": "Oosthout de Vree",
+      "name": "Nollie Oosthout de Vree",
       "username": "noosthout0",
-      "user_password": "VR1I7KgnT8Mj"
+      "password": "VR1I7KgnT8Mj",
+      "email": "noosthout0@stanford.edu",
+      "avatar_url": "https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Universal 5th generation hub",
+      "created_at": "14/11/2019",
+      "currency": 58.13,
+      "phone": "+51 513 897 6195",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 2,
+    "model": "Users.person",
+    "id": 2,
     "fields": {
-      "user_firstname": "Amabel ",
-      "user_surname": "Salomon",
+      "name": "Amabel Salomon",
       "username": "asalomon1",
-      "user_password": "1qOAmrjJJ",
-      "user_email": "asalomon1@smugmug.com"
+      "password": "1qOAmrjJJ",
+      "email": "asalomon1@smugmug.com",
+      "avatar_url": "https://images.pexels.com/photos/4609046/pexels-photo-4609046.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Organic global benchmark",
+      "created_at": "06/02/2020",
+      "currency": 6.85,
+      "phone": "+420 929 558 9328",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 3,
+    "model": "Users.person",
+    "id": 3,
     "fields": {
-      "user_firstname": "Daren ",
-      "user_surname": "Barday",
+      "name": "Daren Barday",
       "username": "dbarday2",
-      "user_password": "dms4rsZPmr",
-      "user_email": "dbarday2@bauser_idu.com"
+      "password": "dms4rsZPmr",
+      "email": "dbarday2@baidu.com",
+      "avatar_url": "https://images.pexels.com/photos/6152103/pexels-photo-6152103.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Balanced needs-based capacity",
+      "created_at": "01/07/2020",
+      "currency": 47.01,
+      "phone": "+264 686 627 8232",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 4,
+    "model": "Users.person",
+    "id": 4,
     "fields": {
-      "user_firstname": "Leticia ",
-      "user_surname": "Feak",
+      "name": "Leticia Feak",
       "username": "lfeak3",
-      "user_password": "PsvnGE",
-      "user_email": "lfeak3@weibo.com"
+      "password": "PsvnGE",
+      "email": "lfeak3@weibo.com",
+      "avatar_url": "https://images.pexels.com/photos/3058391/pexels-photo-3058391.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Optimized multi-state application",
+      "created_at": "06/05/2017",
+      "currency": 82.64,
+      "phone": "+234 837 413 0966",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 5,
+    "model": "Users.person",
+    "id": 5,
     "fields": {
-      "user_firstname": "Rad ",
-      "user_surname": "Oglesbee",
+      "name": "Rad Oglesbee",
       "username": "roglesbee4",
-      "user_password": "rO7I3TrV8",
-      "user_email": "roglesbee4@google.fr"
+      "password": "rO7I3TrV8",
+      "email": "roglesbee4@google.fr",
+      "avatar_url": "https://images.pexels.com/photos/2221357/pexels-photo-2221357.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Adaptive national algorithm",
+      "created_at": "15/07/2021",
+      "currency": 65.84,
+      "phone": "+86 874 548 4309",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 6,
+    "model": "Users.person",
+    "id": 6,
     "fields": {
-      "user_firstname": "Hartley ",
-      "user_surname": "Babon",
+      "name": "Hartley Babon",
       "username": "hbabon5",
-      "user_password": "rPEHPNEF",
-      "user_email": "hbabon5@google.com"
+      "password": "rPEHPNEF",
+      "email": "hbabon5@google.com",
+      "avatar_url": "https://images.pexels.com/photos/2240772/pexels-photo-2240772.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Fundamental directional access",
+      "created_at": "29/06/2022",
+      "currency": 85.15,
+      "phone": "+212 259 432 8053",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 7,
+    "model": "Users.person",
+    "id": 7,
     "fields": {
-      "user_firstname": "Ashia ",
-      "user_surname": "Ateruser_idge",
-      "username": "aateruser_idge6",
-      "user_password": "WBmaLrv",
-      "user_email": "aateruser_idge6@wunderground.com"
+      "name": "Ashia Ateridge",
+      "username": "aateridge6",
+      "password": "WBmaLrv",
+      "email": "aateridge6@wunderground.com",
+      "avatar_url": "https://images.pexels.com/photos/2624077/pexels-photo-2624077.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Synergized transitional projection",
+      "created_at": "09/03/2017",
+      "currency": 98.28,
+      "phone": "+265 741 220 4217",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 8,
+    "model": "Users.person",
+    "id": 8,
     "fields": {
-      "user_firstname": "Brande ",
-      "user_surname": "Mussett",
+      "name": "Brande Mussett",
       "username": "bmussett7",
-      "user_password": "qEazubRPfOY",
-      "user_email": "bmussett7@washingtonpost.com"
+      "password": "qEazubRPfOY",
+      "email": "bmussett7@washingtonpost.com",
+      "avatar_url": "https://images.pexels.com/photos/547593/pexels-photo-547593.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Function-based hybrid info-mediaries",
+      "created_at": "30/03/2019",
+      "currency": 52.9,
+      "phone": "+855 210 612 3793",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 9,
+    "model": "Users.person",
+    "id": 9,
     "fields": {
-      "user_firstname": "Cletus ",
-      "user_surname": "Munkley",
+      "name": "Cletus Munkley",
       "username": "cmunkley8",
-      "user_password": "9XUtClMGq",
-      "user_email": "cmunkley8@ox.ac.uk"
+      "password": "9XUtClMGq",
+      "email": "cmunkley8@ox.ac.uk",
+      "avatar_url": "https://images.pexels.com/photos/8199621/pexels-photo-8199621.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Face to face encompassing projection",
+      "created_at": "27/10/2021",
+      "currency": 32.99,
+      "phone": "+63 169 522 6508",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 10,
+    "model": "Users.person",
+    "id": 10,
     "fields": {
-      "user_firstname": "Carlee ",
-      "user_surname": "Bowdler",
+      "name": "Carlee Bowdler",
       "username": "cbowdler9",
-      "user_password": "rMQDNl",
-      "user_email": "cbowdler9@plala.or.jp"
+      "password": "rMQDNl",
+      "email": "cbowdler9@plala.or.jp",
+      "avatar_url": "https://images.pexels.com/photos/1011437/pexels-photo-1011437.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "description": "Adaptive bifurcated local area network",
+      "created_at": "19/12/2017",
+      "currency": 99.89,
+      "phone": "+81 848 837 0327",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 11,
+    "model": "Users.person",
+    "id": 11,
     "fields": {
-      "user_firstname": "Yevette ",
-      "user_surname": "Dittson",
+      "name": "Yevette Dittson",
       "username": "ydittsona",
-      "user_password": "InRv1tQXH",
-      "user_email": "ydittsona@sohu.com"
+      "password": "InRv1tQXH",
+      "email": "ydittsona@sohu.com",
+      "avatar_url": "https://pngimg.com/d/pokemon_PNG130.png",
+      "description": "Open-architected asymmetric database",
+      "created_at": "27/07/2019",
+      "currency": 73.13,
+      "phone": "+62 602 682 3295",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 12,
+    "model": "Users.person",
+    "id": 12,
     "fields": {
-      "user_firstname": "Rowen ",
-      "user_surname": "Lindelof",
+      "name": "Rowen Lindelof",
       "username": "rlindelofb",
-      "user_password": "IhVatk0AZs7V",
-      "user_email": "rlindelofb@lycos.com"
+      "password": "IhVatk0AZs7V",
+      "email": "rlindelofb@lycos.com",
+      "avatar_url": "https://pngimg.com/d/pokemon_PNG72.png",
+      "description": "Pre-emptive actuating middleware",
+      "created_at": "27/03/2021",
+      "currency": 96.41,
+      "phone": "+33 180 780 4230",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 13,
+    "model": "Users.person",
+    "id": 13,
     "fields": {
-      "user_firstname": "Maurizio ",
-      "user_surname": "Carlisso",
+      "name": "Maurizio Carlisso",
       "username": "mcarlissoc",
-      "user_password": "V29WxG",
-      "user_email": "mcarlissoc@census.gov"
+      "password": "V29WxG",
+      "email": "mcarlissoc@census.gov",
+      "avatar_url": "https://pngimg.com/d/pokemon_PNG125.png",
+      "description": "Robust real-time capability",
+      "created_at": "16/07/2018",
+      "currency": 17.96,
+      "phone": "+7 435 157 1343",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 14,
+    "model": "Users.person",
+    "id": 14,
     "fields": {
-      "user_firstname": "Dalenna ",
-      "user_surname": "Canelas",
+      "name": "Dalenna Canelas",
       "username": "dcanelasd",
-      "user_password": "NM5z0WT",
-      "user_email": "dcanelasd@washington.edu"
+      "password": "NM5z0WT",
+      "email": "dcanelasd@washington.edu",
+      "avatar_url": "https://www.pngall.com/wp-content/uploads/5/Pokemon-Pikachu-PNG-Download-Image.png",
+      "description": "Open-architected clear-thinking superstructure",
+      "created_at": "15/09/2021",
+      "currency": 46.13,
+      "phone": "+86 710 146 1400",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 15,
+    "model": "Users.person",
+    "id": 15,
     "fields": {
-      "user_firstname": "Josey ",
-      "user_surname": "Heister",
+      "name": "Josey Heister",
       "username": "jheistere",
-      "user_password": "eNADnKfTKc27",
-      "user_email": "jheistere@boston.com"
+      "password": "eNADnKfTKc27",
+      "email": "jheistere@boston.com",
+      "avatar_url": "https://static.wikia.nocookie.net/pokemonunite/images/c/c6/Gengar_art.png/revision/latest?cb=20210805141820",
+      "description": "Cross-group grid-enabled help-desk",
+      "created_at": "07/01/2021",
+      "currency": 60.78,
+      "phone": "+30 823 302 4517",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 16,
+    "model": "Users.person",
+    "id": 16,
     "fields": {
-      "user_firstname": "Benito ",
-      "user_surname": "Wruser_ide",
-      "username": "bwruser_idef",
-      "user_password": "Wq20rfB76kAr",
-      "user_email": "bwruser_idef@mapquest.com"
+      "name": "Benito Wride",
+      "username": "bwridef",
+      "password": "Wq20rfB76kAr",
+      "email": "bwridef@mapquest.com",
+      "avatar_url": "https://pngimg.com/d/pokemon_PNG51.png",
+      "description": "Monitored needs-based installation",
+      "created_at": "05/06/2018",
+      "currency": 64.7,
+      "phone": "+86 349 829 7851",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 17,
+    "model": "Users.person",
+    "id": 17,
     "fields": {
-      "user_firstname": "Rozanne ",
-      "user_surname": "Dadley",
+      "name": "Rozanne Dadley",
       "username": "rdadleyg",
-      "user_password": "WTfrGu49hPX",
-      "user_email": "rdadleyg@army.mil"
+      "password": "WTfrGu49hPX",
+      "email": "rdadleyg@army.mil",
+      "avatar_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+      "description": "De-engineered uniform standardization",
+      "created_at": "19/02/2021",
+      "currency": 42.22,
+      "phone": "+86 550 594 0054",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 18,
+    "model": "Users.person",
+    "id": 18,
     "fields": {
-      "user_firstname": "Arabella ",
-      "user_surname": "Kernermann",
+      "name": "Arabella Kernermann",
       "username": "akernermannh",
-      "user_password": "zkwecEJZ2Pcr",
-      "user_email": "akernermannh@pcworld.com"
+      "password": "zkwecEJZ2Pcr",
+      "email": "akernermannh@pcworld.com",
+      "avatar_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
+      "description": "Implemented logistical benchmark",
+      "created_at": "14/06/2022",
+      "currency": 82.5,
+      "phone": "+63 774 414 0227",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 19,
+    "model": "Users.person",
+    "id": 19,
     "fields": {
-      "user_firstname": "Joya ",
-      "user_surname": "Pesic",
+      "name": "Joya Pesic",
       "username": "jpesici",
-      "user_password": "7DejVHVyF",
-      "user_email": "jpesici@usa.gov"
+      "password": "7DejVHVyF",
+      "email": "jpesici@usa.gov",
+      "avatar_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
+      "description": "Robust client-driven function",
+      "created_at": "07/10/2019",
+      "currency": 19.4,
+      "phone": "+57 335 166 9570",
+      "achievements": [1, 2]
     }
   },
   {
-    "model": "Users.user",
-    "user_id": 20,
+    "model": "Users.person",
+    "id": 20,
     "fields": {
-      "user_firstname": "Tori ",
-      "user_surname": "Selly",
+      "name": "Tori Selly",
       "username": "tsellyj",
-      "user_password": "cdrtYctR",
-      "user_email": "tsellyj@fastcompany.com"
+      "password": "cdrtYctR",
+      "email": "tsellyj@fastcompany.com",
+      "avatar_url": "http://pngimg.com/uploads/pokemon/pokemon_PNG161.png",
+      "description": "Quality-focused attitude-oriented encoding",
+      "created_at": "25/07/2018",
+      "currency": 88.95,
+      "phone": "+30 134 392 0129",
+      "achievements": [1, 2]
     }
   }
 ]
