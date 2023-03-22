@@ -26,10 +26,14 @@ You can see a live version of this API, hosted with [Render](https://final-api.o
 
 The frontend repository for our project can be found [here](https://github.com/crypticalfish86/fe-Habit-Tracker)
 
+## Further Resources
 <details>
 
-<summary>Back-end Instructions!(Valentina)</summary>
+<summary>Back-end Instructions!</summary>
+  
+
 **Disclaimer**: These commands work on **WSL Ubuntu**
+   
 ## Summary
 1. Setup
 2. Create model in the database
